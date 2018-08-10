@@ -12,7 +12,7 @@ There are 13 such numbers below 100: 2, 3, 5, 7, 11, 13, 17, 31, 37, 71, 73, 79,
 Write a function `torsional(n)` that returns a list of all torsional prime numbers smaller than a given number n in ascending order.
 
 #### Water bucket problem
-You have two buckets of capacity x and y litres, respectively. You have to use these buckets to measure z litres of water, where z < n.
+You have two buckets of capacity x and y litres, respectively. You have to use these buckets to measure z litres of water, where z < y.
 
 Initially, both buckets are empty and you can assume an infinite supply of water to fill the buckets with.
 
