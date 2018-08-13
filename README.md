@@ -25,3 +25,10 @@ Write a function `measure(x, y, z)` which returns a series of steps to measure z
 
 #### 3. Submit your solution
 Make a PR to this repository with the name of the problem you're trying to solve.
+
+#### 4. Profit
+The winner will be announced in September and will win a €100 Amazon voucher!
+
+Looking for further challenges? Check out our roles at Meister HQ in Vienna, working on the development of MindMeister and MeisterTask using Ruby/RoR!
+
+https://www.meister.co/jobs/
