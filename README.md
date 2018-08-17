@@ -9,7 +9,7 @@ For instance, the cyclic permutations of the number 3779 - 7793, 7937, 9377 are 
 
 There are 13 such numbers below 100: 2, 3, 5, 7, 11, 13, 17, 31, 37, 71, 73, 79, and 97.
 
-Write a function `torsional(n)` that returns a list of all torsional prime numbers smaller than a given number n in ascending order.  
+Fill in the function `torsional(n)` in `torsional.rb` that returns a list of all torsional prime numbers smaller than a given number n in ascending order.  
 Please note that you are not allowed to use the `Prime` class from the ruby stdlib.
 
 #### 2. Water bucket problem
@@ -22,7 +22,10 @@ You are only allowed to use the buckets in the following ways:
 * Fill a bucket completely
 * Transfer the water from one bucket to another until either bucket is empty of full
 
-Write a function `measure(x, y, z)` which returns a series of steps to measure z litres of water using buckets with x and y litre capacities.
+Fill in the function `measure(bx, by, z)` in `bucket.rb` which returns a series of steps to measure z litres of water using buckets with x and y litre capacities.  
+`bx, by` are instances of the class `Bucket` which is available to you.  
+The function should return an array of strings from the following set:
+```'bx.empty', 'bx.fill', 'bx.transfer(by)', 'by.empty', 'by.fill', 'by.transfer(bx)'```
 
 #### 3. Submit your solution
 Please send an email with subject **euruko-challenge-2018 submission** to euruko18@meisterlabs.com.
