@@ -22,8 +22,10 @@ You are only allowed to use the buckets in the following ways:
 * Fill a bucket completely
 * Transfer the water from one bucket to another until either bucket is empty of full
 
-Fill in the function `measure(bx, by, z)` in `bucket.rb` which returns a series of steps to measure z litres of water using buckets with x and y litre capacities.  
-`bx, by` are instances of the class `Bucket` which is available to you.  
+Fill in the function `measure(bx, by, z)` in `bucket.rb` which returns a series of steps to measure z litres of water using buckets with x and y litre capacities.
+
+`bx, by` are instances of the class `Bucket` which is available to you.
+
 The function should return an array of strings from the following set:  
 ```'bx.empty', 'bx.fill', 'bx.transfer(by)', 'by.empty', 'by.fill', 'by.transfer(bx)'```
 
