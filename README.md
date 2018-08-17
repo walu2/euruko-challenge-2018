@@ -25,9 +25,10 @@ You are only allowed to use the buckets in the following ways:
 Write a function `measure(x, y, z)` which returns a series of steps to measure z litres of water using buckets with x and y litre capacities.
 
 #### 3. Submit your solution
-Please send an email with subject `euruko-challenge-2018 submission` to euruko18@meisterlabs.com.
+Please send an email with subject **euruko-challenge-2018 submission** to euruko18@meisterlabs.com.
 
-Please use the files `torsional.rb` and `bucket.rb` and fill in your implementation in the boilerplate provided.   
+Please use the files `torsional.rb` and `bucket.rb` and fill in your implementation in the boilerplate provided.  
+You can use the included tests to check your solution.
 You are allowed to create new methods/classes/modules.
 
 The solutions will be evaluated based on correctness followed by a combination of readablity and performance.
