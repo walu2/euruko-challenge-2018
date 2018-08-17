@@ -13,7 +13,7 @@ Fill in the function `torsional(n)` in `torsional.rb` that returns a list of all
 Please note that you are not allowed to use the `Prime` class from the ruby stdlib.
 
 #### 2. Water bucket problem
-You have two buckets of capacity x and y litres, respectively. You have to use these buckets to measure z litres of water, where z < y.
+You have two buckets of capacity x and y litres, respectively. You have to use these buckets to measure z litres of water in the least amount of steps possible, where z < y.
 
 Initially, both buckets are empty and you can assume an infinite supply of water to fill the buckets with.
 
