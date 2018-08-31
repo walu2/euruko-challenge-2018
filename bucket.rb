@@ -80,7 +80,10 @@ def test_4_3_2
   by = Bucket.new(3)
   steps = measure(bx, by, 2)
 
-  assert_equal(steps.size, 8)
+  # How about - (0,0)->(0,3)->(3,0)->(3,3)->(4,2)
+  # ['by.fill', 'by.transfer(bx)','by.fill','by.transfer(bx)'] 
+  # Is this not allowed ??? 
+  assert_equal(steps.size, 4)
 
   steps.each do |step|
     puts "Invalid step -- #{step}" && raise unless step_valid?(step)
@@ -90,6 +93,6 @@ def test_4_3_2
     assert_valid_bucket(by)
   end
 
-  assert_equal(bx.current == 2 || by.current == 2)
+  assert(bx.current == 2 || by.current == 2)
 end
 
